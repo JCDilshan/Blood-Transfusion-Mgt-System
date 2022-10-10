@@ -1,0 +1,63 @@
+#online_icon {
+  color: #0f0;
+  font-size: 11px;
+  position: relative;
+  transform: translate(-0.7em, -0.6em);
+}
+
+.innerListRow div {
+  border-radius: 1em;
+}
+
+svg {
+  position: relative;
+  right: 32%;
+  margin: -1.6em 0;
+}
+
+svg circle {
+  position: relative;
+  fill: none;
+  stroke: #cecece;
+  stroke-width: 12;
+  stroke-linecap: round;
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 320;
+}
+
+.percent {
+  position: relative;
+  transform: translateX(15%);
+}
+
+.percent > svg > text {
+  position: relative;
+  transform: translate(-2%, -5%);
+}
+
+.after_svg > div > div {
+  transform: translateX(30%);
+  transition: transform 0.4s;
+}
+
+.number {
+  position: absolute;
+}
+
+.number h5 {
+  color: #f00;
+  transition: 0.8s;
+}
+
+.text {
+  color: #333;
+  font-weight: bolder;
+}
+
+.after_text {
+  color: #333;
+  font-weight: bolder;
+  left: 0.5em;
+}

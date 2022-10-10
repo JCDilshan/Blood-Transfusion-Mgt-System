@@ -1,0 +1,56 @@
+.text-light:hover {
+  text-decoration: underline !important;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
+.fpw:hover {
+  text-decoration: underline !important;
+}
+
+#side_col {
+  min-height: 100vh;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+}
+
+#side_col h1 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.side_content {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.side_content h3 {
+  margin-top: 1em;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.side_content h4 {
+  color: silver;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+label > h6 {
+  color: #000;
+  font-weight: bolder;
+}
+
+.login-row {
+  position: relative;
+  top: 30vh;
+}

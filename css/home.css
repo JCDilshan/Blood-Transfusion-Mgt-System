@@ -1,0 +1,23 @@
+.slidesImg {
+  height: 450px;
+}
+
+.ListedRows div {
+  border-radius: 10px;
+}
+
+#online_icon {
+  color: #0f0;
+  font-size: 11px;
+  position: relative;
+  transform: translate(-0.7em, -0.7em);
+}
+
+.reward_img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 3.5em;
+  left: 0px;
+  border-radius: 50%;
+}

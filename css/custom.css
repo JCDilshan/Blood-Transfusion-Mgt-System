@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  overflow-y: hidden;
+}
+
+#sidebarCollapse {
+  border: none !important;
+}
+
+#sidebarCollapse:hover {
+  background-color: inherit !important;
+  border: none !important;
+}
+
+.hidden {
+  display: none !important;
+}
+.help-block {
+  color: #9a9a9a !important;
+}
+.tbhead {
+  background: #666;
+  color: #fff;
+  font-weight: bolder;
+}
+.nav_headerText {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.user_img {
+  border-radius: 40%;
+  position: relative;
+  margin-left: 30px;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.badge {
+  width: 17px;
+  height: 17px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 6px;
+}
+
+#userCog button {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+
+#userCog .dropdown-menu {
+  width: 200px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  z-index: 251;
+}
+
+.dropdown > .dropdown-toggle::after {
+  display: none;
+}
+
+#userCog ul li a {
+  color: #000;
+  display: block;
+  padding-left: 10px;
+}
+
+#userCog ul li a:hover {
+  color: #666;
+  font-weight: bold;
+}
+
+#SubNavDrp > li > a {
+  color: #000;
+}
+
+#SubNavDrp > li > a:hover {
+  color: #60c !important;
+}
+
+#SubNavDrp > li > #signout:hover {
+  color: red !important;
+}
+
+.notif_div {
+  position: absolute;
+  background: linear-gradient(to bottom, #ccc, #fff, #ccc);
+  border-left: #c7c7c7 groove thin;
+  border-radius: 5px;
+  height: 400px;
+  max-height: 400px;
+  width: 75%;
+  right: 240px;
+  top: 70px;
+  z-index: 250;
+  box-shadow: 2px 2px #999999;
+  overflow: auto;
+}
+
+.notif_div > p {
+  color: #000;
+  font-size: 14px;
+  margin: -5px 15px;
+  padding: 0 15px;
+  background-color: #d2d2d2;
+}
+
+.notif_div > p > span {
+  font-size: 11px;
+}
+
+.notif_div > p > kbd {
+  height: 8px;
+  background-color: #f00;
+  color: #fff;
+  margin-right: 5px;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
